@@ -4,6 +4,16 @@ body{
 
 header{
     text-align: center; 
+    background-color: chocolate;
  }
+
+.intro{
+    font-size: large;
+}
+
+.menu{
+    width: 25%;
+    background-color: cadetblue;
+}
 
 
