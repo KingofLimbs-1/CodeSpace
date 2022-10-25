@@ -2,9 +2,18 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+#CoverPhoto{
+    width: 150px;
+    height: 150px;
+    border-radius:50% ;
+    /*color of border goes here, add this later.
+    border: ;
+    list-style-type: none*/
+}
+
 header{
     text-align: center; 
-    background-color: chocolate;
+    background-color: #43CCB3;
  }
 
 .intro{
@@ -12,8 +21,27 @@ header{
 }
 
 .menu{
-    width: 25%;
-    background-color: cadetblue;
+    width: 18%;
+    background-color: #FFA261;
 }
+
+.sidebar{
+    list-style-type: none;
+    padding: 0%;
+}
+
+.contact{
+    text-align: center;
+}
+
+footer{
+    background-color:#4D997E;
+}
+
+.icon{
+    width: 4.5rem;
+    margin: ;
+}
+
 
 
