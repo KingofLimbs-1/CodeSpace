@@ -1,47 +1,68 @@
-body{
+/* This section will cover the entire webpage, all you'll be changing here is the font. */
+/* This is the only part of the stylesheet that will remain as is, every other part of the stylesheet will be continuously changed and updated.  */
+* {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+    padding: 0;
 }
 
-#CoverPhoto{
+
+/* This styling section applies to the cover photo element. */
+#coverPhoto {
     width: 150px;
     height: 150px;
-    border-radius:50% ;
-    /*color of border goes here, add this later.
-    border: ;
-    list-style-type: none*/
+    border-radius: 50%;
 }
 
-header{
-    text-align: center; 
-    background-color: #43CCB3;
- }
 
-.intro{
+/* This styling section applies to the name, personal statement, and self-image  */
+header {
+    text-align: center;
+    background-color: #43CCB3;
+    padding: 20px;
+    border: 20px solid brown;
+    margin: 20px;
+}
+
+
+.intro {
     font-size: large;
 }
 
-.menu{
-    width: 18%;
+
+/* This styling section applies to the parent class 'menu' + sidebar elements */
+.menu {
+    width: 6%;
     background-color: #FFA261;
+    padding: 20px;
+    margin: 20px;
 }
 
-.sidebar{
+.sidebar {
     list-style-type: none;
     padding: 0%;
 }
 
-.contact{
+
+/* This styling section applies to the main content of the webpage (Education, Experience, Skills) */
+.mainContent {
+    padding: 20px;
+    margin: 20px;
+}
+
+
+/* This styling section applies to the footer section of the page (Contact Details, Social I) */
+.contact {
     text-align: center;
 }
 
-footer{
-    background-color:#4D997E;
+footer {
+    background-color: #4D997E;
+    padding: 20px;
+    border: 20px solid brown;
+    margin: 20px;
 }
 
-.icon{
+.icon {
     width: 4.5rem;
-    margin: ;
 }
-
-
-
