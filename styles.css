@@ -7,20 +7,33 @@
 }
 
 
+/* This styling section will cover the body. */
+body {
+    background-color: gray;
+}
+
 /* This styling section applies to the cover photo element. */
 #coverPhoto {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    border: 5px solid brown;
+    display: flex;
+    justify-content: right;
 }
 
+h1,
+.intro {
+    display: flex;
+    justify-content: left;
+}
 
 /* This styling section applies to the name, personal statement, and self-image  */
 header {
     text-align: center;
-    background-color: #43CCB3;
+    /*background-color: #43CCB3;*/
     padding: 20px;
-    border: 20px solid brown;
+    /*border: 20px solid brown;*/
     margin: 20px;
 }
 
@@ -30,17 +43,30 @@ header {
 }
 
 
-/* This styling section applies to the parent class 'menu' + sidebar elements */
+/* This styling section applies to the Menu + it's directory elements. */
 .menu {
-    width: 6%;
-    background-color: #FFA261;
-    padding: 20px;
-    margin: 20px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #fff;
+    padding: 10px;
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.sidebar {
-    list-style-type: none;
-    padding: 0%;
+.heading {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+
+.item {
+    color: #fff;
+    font-size: 22px;
+    padding: 20px;
+    margin: 10px;
 }
 
 
@@ -50,19 +76,35 @@ header {
     margin: 20px;
 }
 
-
-/* This styling section applies to the footer section of the page (Contact Details, Social I) */
-.contact {
-    text-align: center;
+.spec {
+    list-style-type: none;
 }
 
+
+/* This styling section applies to the footer section of the page (Contact Details, Social Icons) */
+
 footer {
-    background-color: #4D997E;
+    text-align: center;
+    text-decoration: none;
+    /* background-color: #43CCB3; */
     padding: 20px;
-    border: 20px solid brown;
     margin: 20px;
 }
 
+#contact {
+    text-align: center;
+}
+
 .icon {
-    width: 4.5rem;
+    width: 4.2rem;
+    margin: 2rem;
+    height: auto;
+}
+
+
+/* Removed faint lines from underneath the social icons. */
+.linkedin,
+.github,
+.gmail {
+    text-decoration: none;
 }
