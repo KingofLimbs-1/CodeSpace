@@ -5,36 +5,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume</title>
+    <title>Miles' Resume</title>
     <link rel="stylesheet" type="text/css" href='css/styles.css'>
 </head>
 
 <body>
     <header>
-        <h1>Miles Pieterse</h1>
-        <p class='intro'>An introductory personal statement.</p><br>
+        <h1 class="heading">Miles Pieterse</h1>
+        <p class="intro">An introductory personal statement</p>
+        <p class="intro">Fullstack Developer</p>
+        <br>
         <img src="images/miles_new.jpg" alt="Picture of Miles" id="coverPhoto">
     </header>
 
 
-<!-- This is where all of the main content of the page will go. -->
-<!-- Filler content will be removed once formatting + structure is finished. -->
+    <!-- This is where all of the main content of the page will go. -->
+    <!-- Filler content will be removed once formatting + structure is finished. -->
 
     <main>
-        <div class='mainContent'>
+        <div class="mainContent">
 
-            <nav class="menu">
-                <h2>Menu</h2>
-                <ul class='sidebar'>
-                    <li> <a href='#education'>Education</a></li>
-                    <li> <a href='#experience'>Experience</a></li>
-                    <li> <a href='#skills'>Skills</a></li>
-                </ul>
-            </nav>
+            <div class="menu">
+                <div class="item"><a href='#education'>Education</a></div>
+                <div class="item"><a href='#experience'>Experience</a></div>
+                <div class="item"><a href='#skills'>Skills</a></div>
+                <div class="item"><a href='#contact'>Contact</a></div>
+
+
+
+            </div><br>
 
             <article>
                 <section>
-                    <h2 id='education'>Education</h2>
+                    <h2 class="heading" id='education'>Education</h2>
                     <p>
                     <h3><a href='https://britishacademy.co.za/' target="_blank">The British Academy</a></h3>
                     2016 - 2021
@@ -81,8 +84,8 @@
                     mauris
                     in aliquam sem fringilla ut.<p></p>
 
-                    <h3><a href='https://www.edx.org/course/introduction-computer-science-harvardx-cs50x' target="_blank"
-                            >Harvard CS50 -
+                    <h3><a href='https://www.edx.org/course/introduction-computer-science-harvardx-cs50x'
+                            target="_blank">Harvard CS50 -
                             Introduction to Computer Science</a></h3>
                     May 2022 - September 2022
                     <p></p>
@@ -129,13 +132,13 @@
                     fames
                     ac turpis. Tristique senectus et netus et malesuada fames ac turpis. Lorem ipsum dolor sit amet
                     consectetur
-                    adipiscing elit duis tristique. Enim tortor at auctor urna nunc id cursus metus.<p></p>
+                    adipiscing elit duis tristique. Enim tortor at auctor urna nunc id cursus metus.<p></p><br>
                 </section>
 
 
 
                 <section>
-                    <h2 id='experience'>Experience</h2>
+                    <h2 class="heading" id='experience'>Experience</h2>
                     <p>
                     <h3>Job 1</h3>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
@@ -195,16 +198,16 @@
                     dui id
                     ornare
                     arcu
-                    odio ut sem.<p></p>
+                    odio ut sem.<p></p><br>
                 </section>
 
 
 
                 <section>
-                    <h2 id='skills'>Skills</h2>
+                    <h2 class="heading" id='skills'>Skills</h2>
                     <h4>Technical</h4>
                     </p>
-                    <ul>
+                    <ul class="spec">
                         <li>Python</li>
                         <li>JavaScript</li>
                         <li>HTML</li>
@@ -213,7 +216,7 @@
 
                     <h4>Soft</h4>
                     </p>
-                    <ul>
+                    <ul class="spec">
                         <li>Networking</li>
                         <li>Communication</li>
                         <li>Teamwork</li>
@@ -229,17 +232,22 @@
 
     <!-- This is the last part of your page, where all the 'footer' content will go. -->
 
-    <footer>
-        <section>
-            <h2 class="contact">Contact Details</h2>
+    <footer id="footer">
+        <h2 class="heading" id="contact">Contact</h2>
 
-            <a class="linkedin" href='https://www.linkedin.com/in/miles-p-2a01131bb/' target="_blank">
-                <img class="icon" src="images/linkedin_logo.png" alt="linkedin icon">
+        <a class="linkedin" href="https://www.linkedin.com/in/miles-p-2a01131bb/" target="_blank">
+            <img class="icon" src="images/linkedin_logo.png" alt="linkedin icon" width="50px" height="50px">
+        </a>
 
-                <a class="github" href='https://github.com/KingofLimbs-1' target="_blank">
-                    <img class="icon" src="images/github_logo.png" alt="github icon">
-                </a>
-        </section>
+        <a class="gmail" href="mailto:milesyusuf123@gmail.com" target="_blank">
+            <img class="icon" src="images/gmail_logo.png" alt="gmail icon" width="50px" height="50px">
+
+        </a>
+
+        <a class="github" href="https://github.com/KingofLimbs-1" target="_blank">
+            <img class="icon" src="images/github_logo.png" alt="github icon" width="50px" height="50px">
+        </a>
+
     </footer>
     <p></p>
 
