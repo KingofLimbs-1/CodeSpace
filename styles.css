@@ -1,4 +1,4 @@
-/* This section will cover the entire webpage, all you'll be changing here is the font. */
+/* This section will cover the entire webpage. */
 /* This is the only part of the stylesheet that will remain as is, every other part of the stylesheet will be continuously changed and updated.  */
 * {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -9,32 +9,17 @@
 
 /* This styling section will cover the body. */
 body {
-    background-color: gray;
+    background-color: #aaaaaa;
 }
 
-/* This styling section applies to the cover photo element. */
-#coverPhoto {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: 5px solid brown;
-    display: flex;
-    justify-content: right;
-}
 
-h1,
-.intro {
-    display: flex;
-    justify-content: left;
-}
-
-/* This styling section applies to the name, personal statement, and self-image  */
+/* This styling section applies to the header section.  */
 header {
-    text-align: center;
-    /*background-color: #43CCB3;*/
+    justify-content: center;
     padding: 20px;
-    /*border: 20px solid brown;*/
     margin: 20px;
+    display: flex;
+    flex-direction: row;
 }
 
 
@@ -42,12 +27,23 @@ header {
     font-size: large;
 }
 
+#coverPhoto {
+    width: 180px;
+    margin-left: 30px;
+    height: 180px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: medium;
+    border-color: #ffffff;
+    justify-content: center;
+}
+
 
 /* This styling section applies to the Menu + it's directory elements. */
 .menu {
     border-style: solid;
     border-width: thin;
-    border-color: #fff;
+    border-color: #ffffff;
     padding: 10px;
     margin: 30px;
     display: flex;
@@ -55,22 +51,22 @@ header {
     justify-content: center;
 }
 
-.heading {
-    text-align: center;
-    text-decoration: underline;
-    font-size: 22px;
-}
-
-
 .item {
-    color: #fff;
-    font-size: 22px;
     padding: 20px;
     margin: 10px;
 }
 
 
-/* This styling section applies to the main content of the webpage (Education, Experience, Skills) */
+.heading {
+    text-align: left;
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+
+
+
+/* This styling section applies to the main content of the webpage. */
 .mainContent {
     padding: 20px;
     margin: 20px;
@@ -81,13 +77,15 @@ header {
 }
 
 
-/* This styling section applies to the footer section of the page (Contact Details, Social Icons) */
+/* This styling section applies to the footer section of the page. */
 
 footer {
+    border-style: solid;
+    border-width: medium;
+    border-color: #ffffff;
     text-align: center;
     text-decoration: none;
-    /* background-color: #43CCB3; */
-    padding: 20px;
+    padding: 10px;
     margin: 20px;
 }
 
