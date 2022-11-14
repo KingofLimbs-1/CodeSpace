@@ -1,0 +1,108 @@
+/* This section will cover the entire webpage. */
+/* This is the only part of the stylesheet that will remain as is, every other part of the stylesheet will be continuously changed and updated.  */
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+    padding: 0;
+}
+
+
+/* This styling section will cover the body. */
+body {
+    background-color: #aaaaaa;
+}
+
+
+/* This styling section applies to the header section.  */
+header {
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.intro {
+    font-size: large;
+}
+
+#coverPhoto {
+    width: 180px;
+    margin-left: 30px;
+    height: 180px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: medium;
+    border-color: #ffffff;
+    justify-content: center;
+}
+
+
+/* This styling section applies to the Menu + it's directory elements. */
+.menu {
+    border-style: solid;
+    border-width: thin;
+    border-color: #ffffff;
+    padding: 10px;
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.item {
+    padding: 20px;
+    margin: 10px;
+}
+
+
+.heading {
+    text-align: left;
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+
+
+
+/* This styling section applies to the main content of the webpage. */
+.mainContent {
+    padding: 20px;
+    margin: 20px;
+}
+
+.spec {
+    list-style-type: none;
+}
+
+
+/* This styling section applies to the footer section of the page. */
+
+footer {
+    border-style: solid;
+    border-width: medium;
+    border-color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    margin: 20px;
+}
+
+#contact {
+    text-align: center;
+}
+
+.icon {
+    width: 4.2rem;
+    margin: 2rem;
+    height: auto;
+}
+
+
+/* Removed faint lines from underneath the social icons. */
+.linkedin,
+.github,
+.gmail {
+    text-decoration: none;
+}
