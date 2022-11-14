@@ -1,3 +1,5 @@
+/* Styling for container + image icon */
+
 .container{
     background-color: plum;
     height: 400px;
@@ -7,12 +9,37 @@
 }
 
 .git{
-    background-color: red;
+    background-color: plum;
     width: 50%;
     height: 50%;
 }
 
+/* Animation properties + set-up */
+
 .container:hover .git{
-    background-color: floralwhite;
-    transform: translateX(100%);
+    background-color: plum;
+    animation: myAnimation ease-in forwards;
+    animation-duration: 2.2s;
+    animation-iteration-count: infinite;
+}
+
+/* Keyframes */
+
+@keyframes myAnimation {
+    0% {
+        transform: translateX(0);
+    }
+
+    35% {
+        transform: translateY(100%);
+    }
+
+    65% {
+        transform: translateX(100%) translateY(100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+    
 }
