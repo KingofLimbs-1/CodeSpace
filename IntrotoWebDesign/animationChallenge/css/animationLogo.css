@@ -1,0 +1,9 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.git{
+    width: 100px;
+    height: auto;
+}
