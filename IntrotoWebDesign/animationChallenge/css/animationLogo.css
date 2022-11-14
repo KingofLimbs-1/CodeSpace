@@ -1,9 +1,18 @@
 .container{
+    background-color: plum;
+    height: 400px;
+    width: 400px;
     display: flex;
-    justify-content: center;
+    justify-content: left; 
 }
 
 .git{
-    width: 100px;
-    height: auto;
+    background-color: red;
+    width: 50%;
+    height: 50%;
+}
+
+.container:hover .git{
+    background-color: floralwhite;
+    transform: translateX(100%);
 }
