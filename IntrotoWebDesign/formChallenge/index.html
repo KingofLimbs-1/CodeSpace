@@ -13,30 +13,31 @@
     <form action="myResults.html" method="get">
         <div class="container">
             <h1 class="header">REGISTER</h1>
+
             <!-- Username Textbox -->
             <div>
                 <label for="username">Username:</label>
-                <input type="text" name="username" id="username">
+                <input type="text" name="username" id="username" required>
             </div>
 
             <!-- Password Textbox -->
             <div class="Password">
                 <label>
                     Password:
-                    <input type="password" name="password">
+                    <input type="password" name="password" required>
                 </label>
             </div>
 
             <!-- Email Textbox -->
             <div class="Email">
                 <label for="email">E-mail:</label>
-                <input type="email" name="email" id="email" />
+                <input type="email" name="email" id="email" required>
             </div>
 
             <!-- Country Dropdown -->
             <div class="Country">
                 <label for="country">Country:</label>
-                <select name="country" id="country">
+                <select name="country" id="country" required>
                     <optgroup id="country-optgroup-Africa" label="Africa"></optgroup>
                     <option value="DZ" label="Algeria">Algeria</option>
                     <option value="AO" label="Angola">Angola</option>
@@ -312,7 +313,7 @@
             <!-- Language Dropdown -->
 
             <label for="language">Language:</label>
-            <select name="language" id="language">
+            <select name="language" id="language" required>
 
                 <option value="AF">Afrikaans</option>
                 <option value="SQ">Albanian</option>
@@ -404,6 +405,17 @@
                 <input type="radio" name="gender" id="other" value="other">
 
             </div>
+
+
+            <!-- Message Textfield -->
+            <div class="Message">
+                <label for="message"> Message:</label>
+                <textarea id="message" name="message" placeholder="Optional"></textarea>
+            </div>
+
+
+            <!-- Submit Button -->
+            <button type="submit">Submit</button>
 
 
 
