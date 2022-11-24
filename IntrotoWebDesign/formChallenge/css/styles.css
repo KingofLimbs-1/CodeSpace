@@ -1,0 +1,37 @@
+/* Box-Sizing */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for body */
+body{
+    background-color: pink;
+}
+
+/* Styling for container */
+.container{
+    background-color: blue;
+    padding: 10px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styling for header */
+.container .header{
+    text-align: center;
+    color: white;
+}
+
+
+/* Styling for form controls */
+.inputField{
+    background-color: red;
+    font-size: 35px;
+    padding: 20px;
+    margin:10px;
+}
+
+
