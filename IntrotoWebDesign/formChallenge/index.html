@@ -11,33 +11,34 @@
 
 <body>
     <form action="myResults.html" method="get">
+
         <div class="container">
+
             <h1 class="header">REGISTER</h1>
 
+
             <!-- Username Textbox -->
-            <div>
+            <div class="inputField">
                 <label for="username">Username:</label>
-                <input type="text" name="username" id="username" required>
+                <input type="text" placeholder="Enter your name" name="username" id="username" required>
             </div>
 
             <!-- Password Textbox -->
-            <div class="Password">
-                <label>
-                    Password:
-                    <input type="password" name="password" required>
-                </label>
+            <div class="inputField">
+                <label for="password">Password:</label>
+                <input type="password" placeholder="Enter a password" name="password" required>
             </div>
 
             <!-- Email Textbox -->
-            <div class="Email">
+            <div class="inputField">
                 <label for="email">E-mail:</label>
-                <input type="email" name="email" id="email" required>
+                <input type="email" placeholder="Enter your email" name="email" id="email" required>
             </div>
 
             <!-- Country Dropdown -->
-            <div class="Country">
+            <div class="inputField">
                 <label for="country">Country:</label>
-                <select name="country" id="country" required>
+                <select name="country" id="country_id" required>
                     <optgroup id="country-optgroup-Africa" label="Africa"></optgroup>
                     <option value="DZ" label="Algeria">Algeria</option>
                     <option value="AO" label="Angola">Angola</option>
@@ -305,95 +306,95 @@
                     <option value="UM" label="U.S. Minor Outlying Islands">U.S. Minor Outlying Islands</option>
                     <option value="VU" label="Vanuatu">Vanuatu</option>
                     <option value="WF" label="Wallis and Futuna">Wallis and Futuna</option>
-
                 </select>
             </div>
 
 
             <!-- Language Dropdown -->
+            <div class="inputField">
+                <label for="language">Language:</label>
+                <select name="language" id="language" required>
 
-            <label for="language">Language:</label>
-            <select name="language" id="language" required>
-
-                <option value="AF">Afrikaans</option>
-                <option value="SQ">Albanian</option>
-                <option value="AR">Arabic</option>
-                <option value="HY">Armenian</option>
-                <option value="EU">Basque</option>
-                <option value="BN">Bengali</option>
-                <option value="BG">Bulgarian</option>
-                <option value="CA">Catalan</option>
-                <option value="KM">Cambodian</option>
-                <option value="ZH">Chinese (Mandarin)</option>
-                <option value="HR">Croatian</option>
-                <option value="CS">Czech</option>
-                <option value="DA">Danish</option>
-                <option value="NL">Dutch</option>
-                <option value="EN">English</option>
-                <option value="ET">Estonian</option>
-                <option value="FJ">Fiji</option>
-                <option value="FI">Finnish</option>
-                <option value="FR">French</option>
-                <option value="KA">Georgian</option>
-                <option value="DE">German</option>
-                <option value="EL">Greek</option>
-                <option value="GU">Gujarati</option>
-                <option value="HE">Hebrew</option>
-                <option value="HI">Hindi</option>
-                <option value="HU">Hungarian</option>
-                <option value="IS">Icelandic</option>
-                <option value="ID">Indonesian</option>
-                <option value="GA">Irish</option>
-                <option value="IT">Italian</option>
-                <option value="JA">Japanese</option>
-                <option value="JW">Javanese</option>
-                <option value="KO">Korean</option>
-                <option value="LA">Latin</option>
-                <option value="LV">Latvian</option>
-                <option value="LT">Lithuanian</option>
-                <option value="MK">Macedonian</option>
-                <option value="MS">Malay</option>
-                <option value="ML">Malayalam</option>
-                <option value="MT">Maltese</option>
-                <option value="MI">Maori</option>
-                <option value="MR">Marathi</option>
-                <option value="MN">Mongolian</option>
-                <option value="NE">Nepali</option>
-                <option value="NO">Norwegian</option>
-                <option value="FA">Persian</option>
-                <option value="PL">Polish</option>
-                <option value="PT">Portuguese</option>
-                <option value="PA">Punjabi</option>
-                <option value="QU">Quechua</option>
-                <option value="RO">Romanian</option>
-                <option value="RU">Russian</option>
-                <option value="SM">Samoan</option>
-                <option value="SR">Serbian</option>
-                <option value="SK">Slovak</option>
-                <option value="SL">Slovenian</option>
-                <option value="ES">Spanish</option>
-                <option value="SW">Swahili</option>
-                <option value="SV">Swedish </option>
-                <option value="TA">Tamil</option>
-                <option value="TT">Tatar</option>
-                <option value="TE">Telugu</option>
-                <option value="TH">Thai</option>
-                <option value="BO">Tibetan</option>
-                <option value="TO">Tonga</option>
-                <option value="TR">Turkish</option>
-                <option value="UK">Ukrainian</option>
-                <option value="UR">Urdu</option>
-                <option value="UZ">Uzbek</option>
-                <option value="VI">Vietnamese</option>
-                <option value="CY">Welsh</option>
-                <option value="XH">Xhosa</option>
-
-            </select>
+                    <option value="AF">Afrikaans</option>
+                    <option value="SQ">Albanian</option>
+                    <option value="AR">Arabic</option>
+                    <option value="HY">Armenian</option>
+                    <option value="EU">Basque</option>
+                    <option value="BN">Bengali</option>
+                    <option value="BG">Bulgarian</option>
+                    <option value="CA">Catalan</option>
+                    <option value="KM">Cambodian</option>
+                    <option value="ZH">Chinese (Mandarin)</option>
+                    <option value="HR">Croatian</option>
+                    <option value="CS">Czech</option>
+                    <option value="DA">Danish</option>
+                    <option value="NL">Dutch</option>
+                    <option value="EN">English</option>
+                    <option value="ET">Estonian</option>
+                    <option value="FJ">Fiji</option>
+                    <option value="FI">Finnish</option>
+                    <option value="FR">French</option>
+                    <option value="KA">Georgian</option>
+                    <option value="DE">German</option>
+                    <option value="EL">Greek</option>
+                    <option value="GU">Gujarati</option>
+                    <option value="HE">Hebrew</option>
+                    <option value="HI">Hindi</option>
+                    <option value="HU">Hungarian</option>
+                    <option value="IS">Icelandic</option>
+                    <option value="ID">Indonesian</option>
+                    <option value="GA">Irish</option>
+                    <option value="IT">Italian</option>
+                    <option value="JA">Japanese</option>
+                    <option value="JW">Javanese</option>
+                    <option value="KO">Korean</option>
+                    <option value="LA">Latin</option>
+                    <option value="LV">Latvian</option>
+                    <option value="LT">Lithuanian</option>
+                    <option value="MK">Macedonian</option>
+                    <option value="MS">Malay</option>
+                    <option value="ML">Malayalam</option>
+                    <option value="MT">Maltese</option>
+                    <option value="MI">Maori</option>
+                    <option value="MR">Marathi</option>
+                    <option value="MN">Mongolian</option>
+                    <option value="NE">Nepali</option>
+                    <option value="NO">Norwegian</option>
+                    <option value="FA">Persian</option>
+                    <option value="PL">Polish</option>
+                    <option value="PT">Portuguese</option>
+                    <option value="PA">Punjabi</option>
+                    <option value="QU">Quechua</option>
+                    <option value="RO">Romanian</option>
+                    <option value="RU">Russian</option>
+                    <option value="SM">Samoan</option>
+                    <option value="SR">Serbian</option>
+                    <option value="SK">Slovak</option>
+                    <option value="SL">Slovenian</option>
+                    <option value="ES">Spanish</option>
+                    <option value="SW">Swahili</option>
+                    <option value="SV">Swedish </option>
+                    <option value="TA">Tamil</option>
+                    <option value="TT">Tatar</option>
+                    <option value="TE">Telugu</option>
+                    <option value="TH">Thai</option>
+                    <option value="BO">Tibetan</option>
+                    <option value="TO">Tonga</option>
+                    <option value="TR">Turkish</option>
+                    <option value="UK">Ukrainian</option>
+                    <option value="UR">Urdu</option>
+                    <option value="UZ">Uzbek</option>
+                    <option value="VI">Vietnamese</option>
+                    <option value="CY">Welsh</option>
+                    <option value="XH">Xhosa</option>
+                </select>
+            </div>
 
 
             <!-- Gender Checkbox -->
-            <div class="Gender">
-                Gender:
+            <div class="inputField">
+
+                <label>Gender:</label>
 
                 <label for="male">Male</label>
                 <input type="radio" name="gender" id="male" value="male">
@@ -407,21 +408,22 @@
             </div>
 
 
-            <!-- Message Textfield -->
-            <div class="Message">
+            <!-- Message Text-field -->
+            <div class="inputField">
                 <label for="message"> Message:</label>
                 <textarea id="message" name="message" placeholder="Optional"></textarea>
             </div>
 
 
             <!-- Submit Button -->
-            <button type="submit">Submit</button>
-
-
-
-
+            <div class="inputField">
+                <button type="submit" class="button">Submit</button>
+            </div>
 
         </div>
+
+
+
     </form>
 </body>
 
