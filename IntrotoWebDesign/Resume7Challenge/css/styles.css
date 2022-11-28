@@ -27,6 +27,18 @@ header {
     font-size: large;
 }
 
+/* New styling for resume 7 images */
+#selfPhoto{
+    width: 180px;
+    margin-left: 30px;
+    height: 180px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: medium;
+    border-color: #ffffff;  
+}
+
+/*
 #coverPhoto {
     width: 180px;
     margin-left: 30px;
@@ -37,7 +49,7 @@ header {
     border-color: #ffffff;
     justify-content: center;
 }
-
+*/
 
 /* This styling section applies to the Menu + it's directory elements. */
 .menu {
