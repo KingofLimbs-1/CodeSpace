@@ -52,6 +52,17 @@ header {
 */
 
 /* This styling section applies to the Menu + it's directory elements. */
+
+/* Background image styling for menu/nav bar */
+.menu{
+    background: linear-gradient(to left,black,white,grey,black)
+    /* Fallback color */
+     black;
+     /* Background position property */
+     background-position: center;
+     /* NOTE! Do not have multiple background images so no repeat necessary. */
+}
+
 .menu {
     border-style: solid;
     border-width: thin;
