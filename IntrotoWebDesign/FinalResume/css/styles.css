@@ -19,19 +19,20 @@ body {
         display: flex;
         flex-direction: row;
     }
+
     .intro {
         font-size: medium;
         font-weight: 600;
     }
 
-    #sourcePhoto{
+    #sourcePhoto {
         width: 180px;
         margin-left: 30px;
         height: 180px;
         border-radius: 50%;
         border-style: solid;
         border-width: medium;
-        border-color: #ffffff;  
+        border-color: #ffffff;
     }
 
     /* This section applies to the menu/nav bar */
@@ -46,21 +47,25 @@ body {
         flex-direction: row;
         justify-content: center;
     }
+
     .item {
         padding: 6px;
         margin: 1px;
     }
+
     /* This section applies to the headings (education, experience, skills) */
     .heading {
         text-align: left;
         text-decoration: underline;
         font-size: 22px;
     }
+
     /* This section applies to the main content */
     main {
         padding: 10px;
         margin: 10px;
     }
+
     /* This section applies to the footer */
     footer {
         border-style: solid;
@@ -71,19 +76,207 @@ body {
         padding: 8px;
         margin: 5px;
     }
+
     #contact {
         text-align: center;
     }
+
     /* This section applies to the icons */
     .icon {
         width: 3rem;
         margin: 1rem;
         height: auto;
     }
+
     /* Removed faint lines from underneath the social icons. */
     .linkedin,
     .github,
     .gmail {
         text-decoration: none;
     }
+}
+
+/* Media Query #2 */
+/* Device Compatibility: Tablets (Vertical) + Larger Phones, min-width of 600px */
+
+@media screen and (min-width: 600px) {
+    header {
+        justify-content: left;
+        padding: 10px;
+        margin: 20px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .intro {
+        font-size: medium;
+        font-weight: 600;
+    }
+
+    #sourcePhoto {
+        width: 180px;
+        margin-left: 30px;
+        height: 180px;
+        border-radius: 50%;
+        border-style: solid;
+        border-width: medium;
+        border-color: #ffffff;
+    }
+
+    /* This section applies to the menu/nav bar */
+    #menu {
+        background: linear-gradient(to left, black, white, grey, black);
+        border-style: solid;
+        border-width: thin;
+        border-color: #ffffff;
+        padding: 15px;
+        margin: 3px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .item {
+        padding: 20px;
+        margin: 2px;
+    }
+
+    /* This section applies to the headings (education, experience, skills) */
+    .heading {
+        text-align: left;
+        text-decoration: underline;
+        font-size: 22px;
+    }
+
+    /* This section applies to the main content */
+    main {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .spec {
+        list-style-type: none;
+    }
+
+    /* This section applies to the footer */
+    footer {
+        border-style: solid;
+        border-width: medium;
+        border-color: #ffffff;
+        text-align: center;
+        text-decoration: none;
+        padding: 8px;
+        margin: 5px;
+    }
+
+    #contact {
+        text-align: center;
+    }
+
+    /* This section applies to the icons */
+    .icon {
+        width: 4rem;
+        margin: 2rem;
+        height: auto;
+    }
+
+    /* Removed faint lines from underneath the social icons. */
+    .linkedin,
+    .github,
+    .gmail {
+        text-decoration: none;
+    }
+
+}
+
+/* Media Query #3 */
+/* Device Compatibility: Tablets (Horizontal), min-width of 768px */
+@media screen and (min-width: 768px) {
+    header {
+        justify-content: left;
+        padding: 10px;
+        margin: 20px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .intro {
+        font-size: medium;
+        font-weight: 600;
+    }
+
+    #sourcePhoto {
+        width: 180px;
+        margin-left: 270px;
+        height: 180px;
+        border-radius: 50%;
+        border-style: solid;
+        border-width: medium;
+        border-color: #ffffff;
+    }
+
+    /* This section applies to the menu/nav bar */
+    #menu {
+        background: linear-gradient(to left, black, white, grey, black);
+        border-style: solid;
+        border-width: thin;
+        border-color: #ffffff;
+        padding: 8px;
+        margin: 3px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .item {
+        padding: 10px;
+        margin: 40px;
+    }
+
+    /* This section applies to the headings (education, experience, skills) */
+    .heading {
+        text-align: left;
+        text-decoration: underline;
+        font-size: 22px;
+    }
+
+    /* This section applies to the main content */
+    main {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .spec {
+        list-style-type: none;
+    }
+
+    /* This section applies to the footer */
+    footer {
+        border-style: solid;
+        border-width: medium;
+        border-color: #ffffff;
+        text-align: center;
+        text-decoration: none;
+        padding: 8px;
+        margin: 5px;
+    }
+
+    #contact {
+        text-align: center;
+    }
+
+    /* This section applies to the icons */
+    .icon {
+        width: 4rem;
+        margin: 4rem;
+        height: auto;
+    }
+
+    /* Removed faint lines from underneath the social icons. */
+    .linkedin,
+    .github,
+    .gmail {
+        text-decoration: none;
+    }
+
 }
