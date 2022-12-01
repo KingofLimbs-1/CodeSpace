@@ -280,3 +280,178 @@ body {
     }
 
 }
+
+/* Media Query #4 */
+/* Device Compatibility: Laptops + Monitors (normal-sized), min-width of 992px */
+
+@media screen and (min-width: 992px) {
+    header {
+        justify-content: left;
+        padding: 10px;
+        margin: 20px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .intro {
+        font-size: medium;
+        font-weight: 600;
+    }
+
+    #sourcePhoto {
+        width: 180px;
+        margin-left: 450px;
+        height: 180px;
+        border-radius: 50%;
+        border-style: solid;
+        border-width: medium;
+        border-color: #ffffff;
+    }
+
+    /* This section applies to the menu/nav bar */
+    #menu {
+        background: linear-gradient(to left, black, white, grey, black);
+        border-style: solid;
+        border-width: thin;
+        border-color: #ffffff;
+        padding: 8px;
+        margin: 3px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .item {
+        font-size: xx-large;
+        padding: 10px;
+        margin: 60px;
+    }
+
+    /* This section applies to the headings (education, experience, skills) */
+    .heading {
+        text-align: left;
+        text-decoration: underline;
+        font-size: 22px;
+    }
+
+    /* This section applies to the main content */
+    main {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .spec {
+        list-style-type: none;
+    }
+
+    /* This section applies to the footer */
+    footer {
+        border-style: solid;
+        border-width: medium;
+        border-color: #ffffff;
+        text-align: center;
+        text-decoration: none;
+        padding: 8px;
+        margin: 5px;
+    }
+
+    #contact {
+        text-align: center;
+    }
+
+    /* This section applies to the icons */
+    .icon {
+        width: 6rem;
+        margin: 6rem;
+        height: auto;
+    }
+
+    /* Removed faint lines from underneath the social icons. */
+    .linkedin,
+    .github,
+    .gmail {
+        text-decoration: none;
+    }
+
+}
+
+/* Media Query #5 */
+/* Device Compatibility: Laptops + Monitors (extra-large), min-width of 1200px */
+
+@media screen and (min-width: 1200px){
+    header {
+        justify-content: left;
+        padding: 10px;
+        margin: 20px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .intro {
+        font-size: medium;
+        font-weight: 600;
+    }
+
+    #sourcePhoto {
+        width: 180px;
+        margin-left: 500px;
+        height: 180px;
+        border-radius: 50%;
+        border-style: solid;
+        border-width: medium;
+        border-color: #ffffff;
+    }
+
+    .item {
+        font-size: xx-large;
+        padding: 10px;
+        margin: 60px;
+    }
+
+    /* This section applies to the headings (education, experience, skills) */
+    .heading {
+        text-align: left;
+        text-decoration: underline;
+        font-size: 22px;
+    }
+
+    /* This section applies to the main content */
+    main {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .spec {
+        list-style-type: none;
+    }
+
+    /* This section applies to the footer */
+    footer {
+        border-style: solid;
+        border-width: medium;
+        border-color: #ffffff;
+        text-align: center;
+        text-decoration: none;
+        padding: 8px;
+        margin: 5px;
+    }
+
+    #contact {
+        text-align: center;
+    }
+
+    /* This section applies to the icons */
+    .icon {
+        width: 5rem;
+        margin: 4rem;
+        height: auto;
+    }
+
+    /* Removed faint lines from underneath the social icons. */
+    .linkedin,
+    .github,
+    .gmail {
+        text-decoration: none;
+    }
+   
+}
