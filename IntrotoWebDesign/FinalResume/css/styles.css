@@ -1,0 +1,89 @@
+/* General styling for page */
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+    padding: 0;
+}
+
+body {
+    background-color: #aaaaaa;
+}
+
+/* Media Query #1 */
+/* Device Compatibility: Cellphones (vertically-held), max-width of 600px */
+@media screen and (max-width: 600px) {
+    header {
+        justify-content: left;
+        padding: 10px;
+        margin: 20px;
+        display: flex;
+        flex-direction: row;
+    }
+    .intro {
+        font-size: medium;
+        font-weight: 600;
+    }
+
+    #sourcePhoto{
+        width: 180px;
+        margin-left: 30px;
+        height: 180px;
+        border-radius: 50%;
+        border-style: solid;
+        border-width: medium;
+        border-color: #ffffff;  
+    }
+
+    /* This section applies to the menu/nav bar */
+    #menu {
+        background: linear-gradient(to left, black, white, grey, black);
+        border-style: solid;
+        border-width: thin;
+        border-color: #ffffff;
+        padding: 15px;
+        margin: 3px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .item {
+        padding: 6px;
+        margin: 1px;
+    }
+    /* This section applies to the headings (education, experience, skills) */
+    .heading {
+        text-align: left;
+        text-decoration: underline;
+        font-size: 22px;
+    }
+    /* This section applies to the main content */
+    main {
+        padding: 10px;
+        margin: 10px;
+    }
+    /* This section applies to the footer */
+    footer {
+        border-style: solid;
+        border-width: medium;
+        border-color: #ffffff;
+        text-align: center;
+        text-decoration: none;
+        padding: 8px;
+        margin: 5px;
+    }
+    #contact {
+        text-align: center;
+    }
+    /* This section applies to the icons */
+    .icon {
+        width: 3rem;
+        margin: 1rem;
+        height: auto;
+    }
+    /* Removed faint lines from underneath the social icons. */
+    .linkedin,
+    .github,
+    .gmail {
+        text-decoration: none;
+    }
+}

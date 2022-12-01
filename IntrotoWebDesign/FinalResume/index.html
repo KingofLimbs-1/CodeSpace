@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Miles' Resume</title>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
     <header>
         <div class="content">
@@ -15,6 +17,24 @@
             <p class="intro">I'm a hard-working, dedicated individual who's always willing to go the extra-mile.</p>
             <p class="intro">In pursuit of finding the best solution.</p>
         </div>
+
+        <div class="content">
+            <!-- Picture Element Values -->
+
+            <!-- Cellphones - Max-width of 600px -->
+            <source media="(max-width: 600px)" srcset="images\closeUp-small.png">
+            <!-- Tablets (Vertical) + Larger Phones - Min-width of 600px -->
+            <source media="(min-width: 600px)" srcset="images\closeUp-small.png">
+            <!-- Tablets (Horizontal) - Min-width of 768px -->
+            <source media="(min-width: 768px)" srcset="images\headShoulders-medium.png">
+            <!-- Laptops + Monitors (Normal-sized) - Min-width of 992px -->
+            <source media="(min-width: 992px)" srcset="images\fullBody-large.png">
+            <!-- Laptops + Monitors (Extra-large) - Min-width of 1200px -->
+            <source media="(min-width: 1200px)" srcset="images\fullBody-large.png">
+
+            <img id="sourcePhoto" src="images/fullBody-large.png" alt="pic of miles">
+        </div>
+
     </header>
     <main>
         <!-- Nav bar/menu -->
@@ -56,7 +76,8 @@
                     <h3><a href='https://www.codespace.co.za/' target="_blank">CodeSpace Academy</a></h3>
                     October 2022 - Present
                     <p>Currently Studying</p>
-                    <p><i class="bigP">Their courses teach industry standard technologies and practices so that their graduates are
+                    <p><i class="bigP">Their courses teach industry standard technologies and practices so that their
+                            graduates are
                             ready to step into jobs in the tech industry. Their courses prepare students for leading
                             industry certifications, and each student develops a code portfolio that is critical for
                             every software developer to have.</p>
@@ -126,4 +147,5 @@
         </div>
     </footer>
 </body>
+
 </html>
