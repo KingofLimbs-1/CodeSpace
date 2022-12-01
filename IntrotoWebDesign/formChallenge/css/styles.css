@@ -12,7 +12,7 @@ body{
 
 /* Styling for container */
 .container{
-    background-color: blue;
+    background-color: pink;
     padding: 10px;
     margin: 50px;
     display: flex;
@@ -26,12 +26,45 @@ body{
 }
 
 
-/* Styling for form controls */
+/* Styling for input form controls */
 .inputField{
     background-color: red;
-    font-size: 35px;
+    font-size: 27px;
+    padding: 30px;
+    margin:10px;
+}
+
+/* Styling for checkbox */
+#Checkbox{
+    background-color: red;
+    font-size: 27px;
     padding: 20px;
     margin:10px;
 }
+/* Styling for input controls (username, password, email) */
+
+
+/*Styling for select controls (country, language)*/ 
+select{
+    margin: 10px;
+    padding: 15px;
+    max-width:500px;
+}
+
+/* Styling for message box */
+textarea{
+    margin: 20px;
+    width: 400px;
+    height: 100px;
+}
+
+/* Styling for submit button */
+button{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+}
+
+
 
 

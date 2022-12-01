@@ -1,0 +1,98 @@
+/* This section apples to the entire webpage. */
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+    padding: 0;
+}
+
+/* This styling section applies to the body. */
+body {
+    background-color: #aaaaaa;
+}
+
+
+/* For tablets */
+@media screen and (max-width: 768px) {
+    header {
+        justify-content: left;
+        padding: 10px;
+        margin: 20px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .intro {
+        font-size: medium;
+        font-weight: 600;
+    }
+
+    #menu {
+        background: linear-gradient(to left, black, white, grey, black);
+        border-style: solid;
+        border-width: thin;
+        border-color: #ffffff;
+        padding: 20px;
+        margin: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .item {
+        padding: 20px;
+        margin: 10px;
+    }
+
+
+    /* This section applies to the headings (education, experience, skills) */
+    .heading {
+        text-align: left;
+        text-decoration: underline;
+        font-size: 22px;
+    }
+
+    /* This section applies to the main content */
+    main {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .bigP {
+        font-size: 90%;
+    }
+
+    /* This section applies to the skill specifications */
+    .spec {
+        list-style-type: none;
+    }
+
+    /* This section applies to the footer */
+    footer {
+        border-style: solid;
+        border-width: medium;
+        border-color: #ffffff;
+        text-align: center;
+        text-decoration: none;
+        padding: 10px;
+        margin: 60px;
+    }
+
+    #contact {
+        text-align: center;
+    }
+
+    /* This section applies to the icons */
+    .icon {
+        width: 4.2rem;
+        margin: 2rem;
+        height: auto;
+    }
+
+    /* Removed faint lines from underneath the social icons. */
+    .linkedin,
+    .github,
+    .gmail {
+        text-decoration: none;
+    }
+
+}
