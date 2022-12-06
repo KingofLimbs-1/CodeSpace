@@ -378,7 +378,7 @@ body {
 /* Media Query #5 */
 /* Device Compatibility: Laptops + Monitors (extra-large), min-width of 1200px */
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px) {
     header {
         justify-content: left;
         padding: 10px;
@@ -453,5 +453,5 @@ body {
     .gmail {
         text-decoration: none;
     }
-   
+
 }
