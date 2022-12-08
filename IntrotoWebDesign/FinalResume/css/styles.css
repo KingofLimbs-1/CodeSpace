@@ -16,8 +16,6 @@ body {
         justify-content: left;
         padding: 10px;
         margin: 20px;
-        display: flex;
-        flex-direction: row;
     }
 
     .intro {
@@ -54,8 +52,8 @@ body {
     }
 
     /* This section applies to the headings (education, experience, skills) */
-    .heading {
-        text-align: left;
+    .h1,
+    .h3 {
         text-decoration: underline;
         font-size: 22px;
     }
@@ -104,8 +102,6 @@ body {
         justify-content: left;
         padding: 10px;
         margin: 20px;
-        display: flex;
-        flex-direction: row;
     }
 
     .intro {
@@ -142,20 +138,17 @@ body {
     }
 
     /* This section applies to the headings (education, experience, skills) */
-    .heading {
-        text-align: left;
+    .h1,
+    .h3 {
         text-decoration: underline;
         font-size: 22px;
     }
+
 
     /* This section applies to the main content */
     main {
         padding: 10px;
         margin: 10px;
-    }
-
-    .spec {
-        list-style-type: none;
     }
 
     /* This section applies to the footer */
@@ -196,8 +189,6 @@ body {
         justify-content: left;
         padding: 10px;
         margin: 20px;
-        display: flex;
-        flex-direction: row;
     }
 
     .intro {
@@ -234,8 +225,8 @@ body {
     }
 
     /* This section applies to the headings (education, experience, skills) */
-    .heading {
-        text-align: left;
+    .h1,
+    .h3 {
         text-decoration: underline;
         font-size: 22px;
     }
@@ -244,10 +235,6 @@ body {
     main {
         padding: 10px;
         margin: 10px;
-    }
-
-    .spec {
-        list-style-type: none;
     }
 
     /* This section applies to the footer */
@@ -289,8 +276,6 @@ body {
         justify-content: left;
         padding: 10px;
         margin: 20px;
-        display: flex;
-        flex-direction: row;
     }
 
     .intro {
@@ -328,8 +313,8 @@ body {
     }
 
     /* This section applies to the headings (education, experience, skills) */
-    .heading {
-        text-align: left;
+    .h1,
+    .h3 {
         text-decoration: underline;
         font-size: 22px;
     }
@@ -338,10 +323,6 @@ body {
     main {
         padding: 10px;
         margin: 10px;
-    }
-
-    .spec {
-        list-style-type: none;
     }
 
     /* This section applies to the footer */
@@ -383,8 +364,6 @@ body {
         justify-content: left;
         padding: 10px;
         margin: 20px;
-        display: flex;
-        flex-direction: row;
     }
 
     .intro {
@@ -409,8 +388,8 @@ body {
     }
 
     /* This section applies to the headings (education, experience, skills) */
-    .heading {
-        text-align: left;
+    .h1,
+    .h3 {
         text-decoration: underline;
         font-size: 22px;
     }
@@ -419,10 +398,6 @@ body {
     main {
         padding: 10px;
         margin: 10px;
-    }
-
-    .spec {
-        list-style-type: none;
     }
 
     /* This section applies to the footer */
