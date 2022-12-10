@@ -13,155 +13,169 @@
 
 <body>
     <header>
-        <div class="container-fluid">
-            <p class="h1">Miles Pieterse</p>
-            <p class="intro">Full Stack Developer</p>
-            <p class="intro">I'm a hard-working, dedicated individual who's always willing to go the extra-mile.</p>
-            <p class="intro">In pursuit of finding the best solution.</p>
-        </div>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg fixed-top ">
+            <div class="container-fluid">
+                <a id="navText" class="navbar-brand" href="#">Miles</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item active">
+                            <a id="navText" class="nav-link" href="#education">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="navText" class="nav-link" href="#experience">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="navText" class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="navText" class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
 
-        <!-- JS Link -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-            integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
-            integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
-            crossorigin="anonymous"></script>
+                </div>
+            </div>
+        </nav>
 
 
-        <div class="content">
-            <!-- Picture Element Values -->
+        <!-- Landing Page -->
+        <section class="bgImage" id="home">
+            <div class="container-fluid">
+                <div class="row">
+                    <!-- Compensation for all screen-sizes -->
+                    <div id="landing-container" class=" landingText col-lg 12 col-md 12 col-sm 12 col-xs 12">
+                        <h2 class="introLarge"> Hi, I'm Miles!</h2>
+                        <p class="intro"> Full Stack Developer</p>
+                        <p class="intro">I'm a hard-working, dedicated individual who's always willing to go the
+                            extra-mile.</p>
+                        <p class="intro">In pursuit of finding the best solution.</p>
 
-            <!-- Cellphones - Max-width of 600px -->
-            <source media="(max-width: 600px)" srcset="images\closeUp-small.png">
-            <!-- Tablets (Vertical) + Larger Phones - Min-width of 600px -->
-            <source media="(min-width: 600px)" srcset="images\closeUp-small.png">
-            <!-- Tablets (Horizontal) - Min-width of 768px -->
-            <source media="(min-width: 768px)" srcset="images\headShoulders-medium.png">
-            <!-- Laptops + Monitors (Normal-sized) - Min-width of 992px -->
-            <source media="(min-width: 992px)" srcset="images\fullBody-large.png">
-            <!-- Laptops + Monitors (Extra-large) - Min-width of 1200px -->
-            <source media="(min-width: 1200px)" srcset="images\fullBody-large.png">
+                        <div class="selfImage col-lg 12 col-md 12 col-sm 12 col-xs 12 mt-5">
+                            <!-- Picture Element Values -->
 
-            <img id="sourcePhoto" src="images/fullBody-large.png" alt="pic of miles">
-        </div>
+                            <!-- Cellphones - Max-width of 600px -->
+                            <source media="(max-width: 600px)" srcset="images\Miles\closeUp-small.png">
+                            <!-- Tablets (Vertical) + Larger Phones - Min-width of 600px -->
+                            <source media="(min-width: 600px)" srcset="images\Miles\closeUp-small.png">
+                            <!-- Tablets (Horizontal) - Min-width of 768px -->
+                            <source media="(min-width: 768px)" srcset="images\Miles\headShoulders-medium.png">
+                            <!-- Laptops + Monitors (Normal-sized) - Min-width of 992px -->
+                            <source media="(min-width: 992px)" srcset="images\Miles\fullBody-large.png">
+                            <!-- Laptops + Monitors (Extra-large) - Min-width of 1200px -->
+                            <source media="(min-width: 1200px)" srcset="images\Miles\fullBody-large.png">
+
+                            <img id="sourcePhoto" src="images\Miles\fullBody-large.png" alt="pic of miles">
+                        </div>
+                    </div>
+
+                    <div class="container-fluid">
+                        <div class="row">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
 
     </header>
     <main>
-        <!-- Nav bar/menu -->
-        <div class="content" id="menu">
-            <div class="item"><a href='#education'>Education</a></div>
-            <div class="item"><a href='#experience'>Experience</a></div>
-            <div class="item"><a href='#skills'>Skills</a></div>
-            <div class="item"><a href='#contact'>Contact</a></div>
-        </div>
-        <br>
         <article>
-            <!-- Education -->
-            <section>
-                <div class="content">
-                    <p class="h3" id="education"> Education</p>
-                    <p>
-                    <h3><a href='https://britishacademy.co.za/' target="_blank">The British Academy</a></h3>
-                    2016 - 2021
-                    <p>Qualification Obtained:</p>
-                    <p><i>National Senior Certificate</i></p>
-                    <br>
-                    <h3><a href='https://www.udemy.com/course/complete-python-bootcamp/' target="_blank">Udemy -
-                            Complete Python
-                            Bootcamp
-                            From
-                            Zero
-                            to Hero in Python</a></h3>
-                    January 2022 - May 2022
-                    <p>Qualification Obtained:</p>
-                    <p><i>Certificate of Course Completion</i></p>
-                    <br>
-                    <h3><a href='https://www.edx.org/course/introduction-computer-science-harvardx-cs50x'
-                            target="_blank">Harvard CS50 -
-                            Introduction to Computer Science</a></h3>
-                    May 2022 - September 2022
-                    <p>Qualification Obtained:</p>
-                    <p><i>CS50 Certificate of Completion</i></p>
-                    <br>
-                    <h3><a href='https://www.codespace.co.za/' target="_blank">CodeSpace Academy</a></h3>
-                    October 2022 - Present
-                    <p>Currently Studying</p>
-                    <p><i>Their courses teach industry standard technologies and practices so that their
-                            graduates are
-                            ready to step into jobs in the tech industry. Their courses prepare students for
-                            leading
-                            industry certifications, and each student develops a code portfolio that is critical
-                            for
-                            every software developer to have.</p>
-                    <br>
-                </div>
+            <!-- Education Section -->
+            <!-- Cards -->
+            <section id="education">
+                <div class="container mt-4 mb-3 pt-4">
+                    <h1 class="text-center" id="heading">Education</h1>
+                    <div class="row mt-4">
+
+                        <div class="container">
+                            <div class="row g-3">
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="card">
+                                        <img src="images\Cards\Tba.png" class="card-img-top" alt="TBA logo">
+                                        <div class="card-body">
+                                            <h5 class="card-title">The British Academy - Cambridge International High
+                                                School</h5>
+                                            <p class="card-text">2016-2021</p>
+                                            <p class="card-text">Qualification Obtained: </p>
+                                            <p class="card-text"><i>National Senior Certificate</i></p>
+                                            <a href="https://britishacademy.co.za/" target="_blank" id="TBA-button"
+                                                class="btn btn-primary">Check it
+                                                out!</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="card">
+                                        <img src="images\Cards\Udemy.png" class="card-img-top" alt="Udemy logo">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Udemy -
+                                                Complete Python
+                                                Bootcamp From Zero to Hero</h5>
+                                            <p class="card-text">January 2022- May 2022</p>
+                                            <p class="card-text">Qualification Obtained:</p>
+                                            <p class="card-text"><i>Certificate of Course Completion</i></p>
+                                            <a href="https://www.udemy.com/course/complete-python-bootcamp/"
+                                                target="_blank" id="Udemy-button" class="btn btn-primary">Check it
+                                                out!</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="card">
+                                        <img id="Harvard" src="images\Cards\CS50.png" class="card-img-top"
+                                            alt="CS50 logo">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Harvard CS50 -
+                                                Introduction to Computer Science</h5>
+                                            <p class="card-text">May 2022 - September 2022</p>
+                                            <p class="card-text">Qualification Obtained:</p>
+                                            <p class="card-text">CS50 Certificate of Completion</p>
+                                            <a href="https://www.edx.org/course/introduction-computer-science-harvardx-cs50x"
+                                                target="_blank" id="Harvard-button" class="btn btn-primary">Check it
+                                                out!</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="card">
+                                        <img src="images\Cards\CodeSpace.png" class="card-img-top" alt="Codespace logo">
+                                        <div class="card-body">
+                                            <h5 class="card-title">CodeSpace Academy</h5>
+                                            <p class="card-text">October 2022 - Present</p>
+                                            <p class="card-text">Currently Studying</p>
+                                            <p class="card-text"><i> Their courses teach industry standard technologies
+                                                    and
+                                                    practices so
+                                                    that their
+                                                    graduates are
+                                                    ready to step into jobs in the tech industry.</i></p>
+                                            <a href="https://www.codespace.co.za/" target="_blank" id="CS-button"
+                                                id="CS-button" class="btn btn-primary">Check it out!</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
             </section>
-            <!-- Experience -->
-            <section>
-                <div class="container-fluid">
-                    <p class="h3" id="experience">Experience</p>
-                    <p>
-                    <h3>Neighbourhood Dog Wallker</h3>
-                    <h2>Responsibilities</h2>
-                    <ul>
-                        <li>I was responsible for walking around 6 dogs in total.</li>
-                        <li>I had to walk them regularly every day and keep them active.</li>
-                        <li>Provide the dogs with companionship, love, and attention.</li>
-                        <li>Refresh their water and keep them fed.</li>
-                    </ul>
-                    <br>
-                    <h3>Neighbourhood Car Washer</h3>
-                    <h2>Responsibilities</h2>
-                    <ul>
-                        <li>I was tasked with greeting people and identifying their car cleansing needs.</li>
-                        <li>I cleaned both the exterior and interior of the vehicles.</li>
-                        <li>I cleaned the body of the vehicle, tires, windscreens, windows, hoods, etc.</li>
-                        <li>I cleaned upholsteries, mats, and other interior surfaces.</li>
-                    </ul>
-                    <br>
-                </div>
-            </section>
-            <section>
-                <div class="content">
-                    <p class="h3" id="skills">Skills</p>
-                    <h4>Technical</h4>
-                    <ul class="list-unstyled">
-                        <li>Python</li>
-                        <li>JavaScript</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                    </ul>
-                    <h4>Soft</h4>
-                    <ul class="list-unstyled">
-                        <li>Networking</li>
-                        <li>Communication</li>
-                        <li>Teamwork</li>
-                        <li>Time Management</li>
-                        <li>Problem Solving</li>
-                    </ul>
-                </div>
-            </section>
-        </article>
-    </main>
-    <!-- Footer -->
-    <footer>
-        <div class="content">
-            <p class="h3" id="contact">Contact</p>
-            <a class="linkedin" href="https://www.linkedin.com/in/miles-p-2a01131bb/" target="_blank">
-                <img class="icon" src="images/linkedin_logo.png" alt="linkedin icon" width="50px" height="50px">
-            </a>
-            <a class="gmail" href="mailto:milesyusuf123@gmail.com" target="_blank">
-                <img class="icon" src="images/gmail_logo.png" alt="gmail icon" width="50px" height="50px">
-            </a>
-            <a class="github" href="https://github.com/KingofLimbs-1" target="_blank">
-                <img class="icon" src="images/github_logo.png" alt="github icon" width="50px" height="50px">
-            </a>
-        </div>
-    </footer>
+
+    <!-- Optional Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
