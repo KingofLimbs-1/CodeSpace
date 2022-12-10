@@ -1,432 +1,101 @@
-/* General styling for page */
-* {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 19px;
-    padding: 0;
+/* Main styling for landing page */
+/* This section applies to the background image used on the landing page */
+.bgImage {
+    height: 100vh;
+    background: url('https://www.newegg.com/insider/wp-content/uploads/windows_xp_bliss-wide.jpg');
+    background-size: cover;
+    position: relative;
 }
 
-body {
-    background-color: #aaaaaa;
+.introLarge {
+    font-size: 4.5rem;
+    font-weight: 400;
+    font-family: 'Minecraft';
 }
 
-/* Media Query #1 */
-/* Device Compatibility: Cellphones (vertically-held), max-width of 600px */
-@media screen and (max-width: 600px) {
-    header {
-        justify-content: left;
-        padding: 10px;
-        margin: 20px;
-    }
-
-    .intro {
-        font-size: medium;
-        font-weight: 600;
-    }
-
-    #sourcePhoto {
-        width: 180px;
-        margin-left: 30px;
-        height: 180px;
-        border-radius: 50%;
-        border-style: solid;
-        border-width: medium;
-        border-color: #ffffff;
-    }
-
-    /* This section applies to the menu/nav bar */
-    #menu {
-        background: linear-gradient(to left, black, white, grey, black);
-        border-style: solid;
-        border-width: thin;
-        border-color: #ffffff;
-        padding: 15px;
-        margin: 3px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .item {
-        padding: 6px;
-        margin: 1px;
-    }
-
-    /* This section applies to the headings (education, experience, skills) */
-    .h1,
-    .h3 {
-        text-decoration: underline;
-        font-size: 22px;
-    }
-
-    /* This section applies to the main content */
-    main {
-        padding: 10px;
-        margin: 10px;
-    }
-
-    /* This section applies to the footer */
-    footer {
-        border-style: solid;
-        border-width: medium;
-        border-color: #ffffff;
-        text-align: center;
-        text-decoration: none;
-        padding: 8px;
-        margin: 5px;
-    }
-
-    #contact {
-        text-align: center;
-    }
-
-    /* This section applies to the icons */
-    .icon {
-        width: 3rem;
-        margin: 1rem;
-        height: auto;
-    }
-
-    /* Removed faint lines from underneath the social icons. */
-    .linkedin,
-    .github,
-    .gmail {
-        text-decoration: none;
-    }
+.intro {
+    font-family: 'Minecraft';
+    font-size: 2rem;
 }
 
-/* Media Query #2 */
-/* Device Compatibility: Tablets (Vertical) + Larger Phones, min-width of 600px */
-
-@media screen and (min-width: 600px) {
-    header {
-        justify-content: left;
-        padding: 10px;
-        margin: 20px;
-    }
-
-    .intro {
-        font-size: medium;
-        font-weight: 600;
-    }
-
-    #sourcePhoto {
-        width: 180px;
-        margin-left: 30px;
-        height: 180px;
-        border-radius: 50%;
-        border-style: solid;
-        border-width: medium;
-        border-color: #ffffff;
-    }
-
-    /* This section applies to the menu/nav bar */
-    #menu {
-        background: linear-gradient(to left, black, white, grey, black);
-        border-style: solid;
-        border-width: thin;
-        border-color: #ffffff;
-        padding: 15px;
-        margin: 3px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .item {
-        padding: 20px;
-        margin: 2px;
-    }
-
-    /* This section applies to the headings (education, experience, skills) */
-    .h1,
-    .h3 {
-        text-decoration: underline;
-        font-size: 22px;
-    }
-
-
-    /* This section applies to the main content */
-    main {
-        padding: 10px;
-        margin: 10px;
-    }
-
-    /* This section applies to the footer */
-    footer {
-        border-style: solid;
-        border-width: medium;
-        border-color: #ffffff;
-        text-align: center;
-        text-decoration: none;
-        padding: 8px;
-        margin: 5px;
-    }
-
-    #contact {
-        text-align: center;
-    }
-
-    /* This section applies to the icons */
-    .icon {
-        width: 4rem;
-        margin: 2rem;
-        height: auto;
-    }
-
-    /* Removed faint lines from underneath the social icons. */
-    .linkedin,
-    .github,
-    .gmail {
-        text-decoration: none;
-    }
-
+.landingText {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
 }
 
-/* Media Query #3 */
-/* Device Compatibility: Tablets (Horizontal), min-width of 768px */
-@media screen and (min-width: 768px) {
-    header {
-        justify-content: left;
-        padding: 10px;
-        margin: 20px;
-    }
-
-    .intro {
-        font-size: medium;
-        font-weight: 600;
-    }
-
-    #sourcePhoto {
-        width: 180px;
-        margin-left: 270px;
-        height: 180px;
-        border-radius: 50%;
-        border-style: solid;
-        border-width: medium;
-        border-color: #ffffff;
-    }
-
-    /* This section applies to the menu/nav bar */
-    #menu {
-        background: linear-gradient(to left, black, white, grey, black);
-        border-style: solid;
-        border-width: thin;
-        border-color: #ffffff;
-        padding: 8px;
-        margin: 3px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .item {
-        padding: 10px;
-        margin: 40px;
-    }
-
-    /* This section applies to the headings (education, experience, skills) */
-    .h1,
-    .h3 {
-        text-decoration: underline;
-        font-size: 22px;
-    }
-
-    /* This section applies to the main content */
-    main {
-        padding: 10px;
-        margin: 10px;
-    }
-
-    /* This section applies to the footer */
-    footer {
-        border-style: solid;
-        border-width: medium;
-        border-color: #ffffff;
-        text-align: center;
-        text-decoration: none;
-        padding: 8px;
-        margin: 5px;
-    }
-
-    #contact {
-        text-align: center;
-    }
-
-    /* This section applies to the icons */
-    .icon {
-        width: 4rem;
-        margin: 4rem;
-        height: auto;
-    }
-
-    /* Removed faint lines from underneath the social icons. */
-    .linkedin,
-    .github,
-    .gmail {
-        text-decoration: none;
-    }
-
+/* This section applies to the image of me */
+#sourcePhoto {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: large;
+    border-color: darkgreen;
 }
 
-/* Media Query #4 */
-/* Device Compatibility: Laptops + Monitors (normal-sized), min-width of 992px */
-
-@media screen and (min-width: 992px) {
-    header {
-        justify-content: left;
-        padding: 10px;
-        margin: 20px;
-    }
-
-    .intro {
-        font-size: medium;
-        font-weight: 600;
-    }
-
-    #sourcePhoto {
-        width: 180px;
-        margin-left: 450px;
-        height: 180px;
-        border-radius: 50%;
-        border-style: solid;
-        border-width: medium;
-        border-color: #ffffff;
-    }
-
-    /* This section applies to the menu/nav bar */
-    #menu {
-        background: linear-gradient(to left, black, white, grey, black);
-        border-style: solid;
-        border-width: thin;
-        border-color: #ffffff;
-        padding: 8px;
-        margin: 3px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .item {
-        font-size: xx-large;
-        padding: 10px;
-        margin: 60px;
-    }
-
-    /* This section applies to the headings (education, experience, skills) */
-    .h1,
-    .h3 {
-        text-decoration: underline;
-        font-size: 22px;
-    }
-
-    /* This section applies to the main content */
-    main {
-        padding: 10px;
-        margin: 10px;
-    }
-
-    /* This section applies to the footer */
-    footer {
-        border-style: solid;
-        border-width: medium;
-        border-color: #ffffff;
-        text-align: center;
-        text-decoration: none;
-        padding: 8px;
-        margin: 5px;
-    }
-
-    #contact {
-        text-align: center;
-    }
-
-    /* This section applies to the icons */
-    .icon {
-        width: 6rem;
-        margin: 6rem;
-        height: auto;
-    }
-
-    /* Removed faint lines from underneath the social icons. */
-    .linkedin,
-    .github,
-    .gmail {
-        text-decoration: none;
-    }
-
+/* This section applies to the headings (education, experience, skills, contact) */
+#heading {
+    font-family: 'Minecraft';
+    text-decoration: underline;
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-right: 10px;
 }
 
-/* Media Query #5 */
-/* Device Compatibility: Laptops + Monitors (extra-large), min-width of 1200px */
+/* This section applies to the education section (cards) */
 
-@media screen and (min-width: 1200px) {
-    header {
-        justify-content: left;
-        padding: 10px;
-        margin: 20px;
-    }
+#Harvard {
+    margin-top: 2px;
+}
 
-    .intro {
-        font-size: medium;
-        font-weight: 600;
-    }
+#Harvard-button {
+    margin-top: 25px;
+}
 
-    #sourcePhoto {
-        width: 180px;
-        margin-left: 500px;
-        height: 180px;
-        border-radius: 50%;
-        border-style: solid;
-        border-width: medium;
-        border-color: #ffffff;
-    }
+/* This section applies to the experience section (carousel) */
+#carousel-pic {
+    width: 400px;
+    height: 400px;
+}
 
-    .item {
-        font-size: xx-large;
-        padding: 10px;
-        margin: 60px;
-    }
+#carousel-item-1 {
+    margin-bottom: 50px;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-    /* This section applies to the headings (education, experience, skills) */
-    .h1,
-    .h3 {
-        text-decoration: underline;
-        font-size: 22px;
-    }
+#carousel-item-2 {
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-    /* This section applies to the main content */
-    main {
-        padding: 10px;
-        margin: 10px;
-    }
+#job-spec {
+    list-style-type: none;
+}
 
-    /* This section applies to the footer */
-    footer {
-        border-style: solid;
-        border-width: medium;
-        border-color: #ffffff;
-        text-align: center;
-        text-decoration: none;
-        padding: 8px;
-        margin: 5px;
-    }
+#job-title {
+    text-decoration: underline;
+}
 
-    #contact {
-        text-align: center;
-    }
+/* This section applies to the footer (icons) */
+#footer {
+    text-align: center;
+}
 
-    /* This section applies to the icons */
-    .icon {
-        width: 5rem;
-        margin: 4rem;
-        height: auto;
-    }
+.icon {
+    width: 3rem;
+    margin: 2rem;
+    height: auto;
+}
 
-    /* Removed faint lines from underneath the social icons. */
-    .linkedin,
-    .github,
-    .gmail {
-        text-decoration: none;
-    }
-
+.linkedin,
+.github,
+.gmail {
+    text-decoration: none;
 }
