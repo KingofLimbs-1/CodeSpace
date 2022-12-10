@@ -277,3 +277,219 @@
     }
 
 }
+
+/* Media Query #3 */
+/* Device Compatibility: Tablets (Horizontal) + Laptops + Monitors (normal-sized), min-width of 992px */
+@media screen and (min-width: 992px) {
+
+    /* Main styling for landing page */
+    /* This section applies to the background image used on the landing page */
+    .bgImage {
+        height: 100vh;
+        background: url('https://www.newegg.com/insider/wp-content/uploads/windows_xp_bliss-wide.jpg');
+        background-size: cover;
+        position: relative;
+    }
+
+    .introLarge {
+        font-size: 4.5rem;
+        font-weight: 400;
+        font-family: 'Minecraft';
+    }
+
+    .intro {
+        font-family: 'Minecraft';
+        font-size: 2rem;
+    }
+
+    .landingText {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: black;
+    }
+
+    /* This section applies to the image of me */
+    #sourcePhoto {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border-style: solid;
+        border-width: large;
+        border-color: darkgreen;
+    }
+
+    /* This section applies to the headings (education, experience, skills, contact) */
+    #heading {
+        font-family: 'Minecraft';
+        text-decoration: underline;
+        font-size: 30px;
+        margin-bottom: 30px;
+        margin-right: 10px;
+    }
+
+    /* This section applies to the education section (cards) */
+    #Udemy-button {
+        margin-top: 20px;
+    }
+
+    #Harvard-button {
+        margin-top: 40px;
+    }
+
+    /* This section applies to the experience section (carousel) */
+    #carousel-pic {
+        width: 400px;
+        height: 400px;
+    }
+
+    #carousel-item-1 {
+        margin-bottom: 100px;
+        font-size: large;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #carousel-item-2 {
+        margin-bottom: 100px;
+        font-size: large;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #job-spec {
+        list-style-type: none;
+    }
+
+    #job-title {
+        text-decoration: underline;
+    }
+
+    /* This section applies to the footer (icons) */
+    #footer {
+        text-align: center;
+    }
+
+    .icon {
+        width: 3rem;
+        margin: 2rem;
+        height: auto;
+    }
+
+    .linkedin,
+    .github,
+    .gmail {
+        text-decoration: none;
+    }
+
+}
+
+/* Media Query #4 */
+/* Device Compatibility: Laptops + Monitors (extra-large), min-width of 1200px */
+
+@media screen and (min-width: 1200px) {
+
+    /* Main styling for landing page */
+    /* This section applies to the background image used on the landing page */
+    .bgImage {
+        height: 100vh;
+        background: url('https://www.newegg.com/insider/wp-content/uploads/windows_xp_bliss-wide.jpg');
+        background-size: cover;
+        position: relative;
+    }
+
+    .introLarge {
+        font-size: 4.5rem;
+        font-weight: 400;
+        font-family: 'Minecraft';
+    }
+
+    .intro {
+        font-family: 'Minecraft';
+        font-size: 2rem;
+    }
+
+    .landingText {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: black;
+    }
+
+    /* This section applies to the image of me */
+    #sourcePhoto {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border-style: solid;
+        border-width: large;
+        border-color: darkgreen;
+    }
+
+    /* This section applies to the headings (education, experience, skills, contact) */
+    #heading {
+        font-family: 'Minecraft';
+        text-decoration: underline;
+        font-size: 30px;
+        margin-bottom: 30px;
+        margin-right: 10px;
+    }
+
+    /* This section applies to the education section (cards) */
+    #TBA-button {
+        margin-top: 22px;
+    }
+
+    #Harvard-button {
+        margin-top: 45px;
+    }
+
+    /* This section applies to the experience section (carousel) */
+    #carousel-pic {
+        width: 400px;
+        height: 400px;
+    }
+
+    #carousel-item-1 {
+        margin-bottom: 80px;
+        font-size: large;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #carousel-item-2 {
+        font-size: large;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #job-spec {
+        list-style-type: none;
+    }
+
+    #job-title {
+        text-decoration: underline;
+    }
+
+    /* This section applies to the footer (icons) */
+    #footer {
+        text-align: center;
+    }
+
+    .icon {
+        width: 3rem;
+        margin: 2rem;
+        height: auto;
+    }
+
+    .linkedin,
+    .github,
+    .gmail {
+        text-decoration: none;
+    }
+
+}
