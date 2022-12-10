@@ -99,3 +99,181 @@
 .gmail {
     text-decoration: none;
 }
+
+/* Media Query #1 */
+/* Device Compatibility: Cellphones (vertically-held), max-width of 600px */
+@media screen and (max-width: 600px) {
+    .bgImage {
+        height: 100vh;
+        background: url('https://www.newegg.com/insider/wp-content/uploads/windows_xp_bliss-wide.jpg');
+        background-size: cover;
+        position: relative;
+    }
+
+    #landing-container {
+        margin-top: 20%;
+    }
+
+    .introLarge {
+        font-size: 2.5rem;
+        font-weight: 400;
+        font-family: 'Minecraft';
+    }
+
+    .intro {
+        font-family: 'Minecraft';
+        font-size: 2rem;
+    }
+
+    /* This section applies to the image of me */
+    #sourcePhoto {
+        margin-bottom: 160px;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border-style: solid;
+        border-width: large;
+        border-color: darkgreen;
+    }
+
+    /* This section applies to the headings (education, experience, skills, contact) */
+    #heading {
+        font-family: 'Minecraft';
+        text-decoration: underline;
+        font-size: 30px;
+        margin-bottom: 30px;
+        margin-right: 10px;
+    }
+
+    /* This section applies to the experience section (carousel) */
+    #carousel-pic {
+        width: 400px;
+        height: 400px;
+    }
+
+    #carousel-item-1 {
+        margin-bottom: 10px;
+        font-size: medium;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #carousel-item-2 {
+        margin-bottom: 25px;
+        font-size: medium;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #job-spec {
+        list-style-type: none;
+    }
+
+    #job-title {
+        text-decoration: underline;
+    }
+
+}
+
+/* Media Query #2 */
+/* Device Compatibility: Tablets (Vertical) + Larger Phones, min-width of 600px */
+@media screen and (min-width: 600px) {
+
+    /* Main styling for landing page */
+    /* This section applies to the background image used on the landing page */
+    .bgImage {
+        height: 100vh;
+        background: url('https://www.newegg.com/insider/wp-content/uploads/windows_xp_bliss-wide.jpg');
+        background-size: cover;
+        position: relative;
+    }
+
+    .introLarge {
+        font-size: 4.5rem;
+        font-weight: 400;
+        font-family: 'Minecraft';
+    }
+
+    .intro {
+        font-family: 'Minecraft';
+        font-size: 2rem;
+    }
+
+    .landingText {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: black;
+    }
+
+    /* This section applies to the image of me */
+    #sourcePhoto {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border-style: solid;
+        border-width: large;
+        border-color: darkgreen;
+    }
+
+    /* This section applies to the headings (education, experience, skills, contact) */
+    #heading {
+        font-family: 'Minecraft';
+        text-decoration: underline;
+        font-size: 30px;
+        margin-bottom: 30px;
+        margin-right: 10px;
+    }
+
+    /* This section applies to the education section (cards) */
+    #CS-button {
+        margin-top: 30px;
+    }
+
+    /* This section applies to the experience section (carousel) */
+    #carousel-pic {
+        width: 400px;
+        height: 400px;
+    }
+
+    #carousel-item-1 {
+        margin-bottom: 50px;
+        font-size: large;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #carousel-item-2 {
+        font-size: large;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #job-spec {
+        list-style-type: none;
+    }
+
+    #job-title {
+        text-decoration: underline;
+    }
+
+    /* This section applies to the footer (icons) */
+    #footer {
+        text-align: center;
+    }
+
+    .icon {
+        width: 3rem;
+        margin: 2rem;
+        height: auto;
+    }
+
+    .linkedin,
+    .github,
+    .gmail {
+        text-decoration: none;
+    }
+
+}
