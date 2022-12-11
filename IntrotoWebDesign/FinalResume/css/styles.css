@@ -450,12 +450,12 @@
 
     /* This section applies to the experience section (carousel) */
     #carousel-pic {
-        width: 400px;
-        height: 400px;
+        width: 500px;
+        height: 500px;
     }
 
     #carousel-item-1 {
-        margin-bottom: 80px;
+        margin-bottom: 100px;
         font-size: large;
         font-weight: bold;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
